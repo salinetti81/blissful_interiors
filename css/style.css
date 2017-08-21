@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+.temp {
+  margin-left: 50%;
+}
+
 #side_bar_container {
   position: fixed;
   top: 0;
@@ -65,11 +69,13 @@ nav li {
   margin-bottom: 30px;
   font-family: "Adobe Caslon Pro", Georgia;
   font-weight: lighter;
+  transition: .2s;
 }
 
 nav li:hover {
   background-color: rgb(234, 246, 245);
   color: rgb(39, 167, 160); ;
+  transition: .5s;
 }
 
 
