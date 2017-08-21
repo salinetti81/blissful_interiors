@@ -14,15 +14,24 @@ html {
   overflow-x: hidden; 
 }
 
+@font-face {
+ font-family: 'Adobe Caslon Pro';
+  src: url(../fonts/adobe_caslon_pro.ttf);
+}
+
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 #side_bar_container {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  /*width: 100%;*/
   bottom: 0;
   z-index: 9999;
   /*background-color: rgb(39, 167, 160);*/
@@ -32,14 +41,14 @@ ul {
 .logo {
   float: left;
   height: auto;
-  width: 15%;
+  width: 15em;
 }
 
 nav {
   clear: both;
   float: left;
   background-color: rgb(39, 167, 160);
-  width: 15%;
+  width: 15em;
   padding-bottom: 100%;
 }
 
@@ -49,7 +58,24 @@ nav ul {
 }
 
 nav li {
-  color: rgb(255, 255, 255);
-  font-size: 1.5em;
-  padding-bottom: 7px;
+  color: rgb(234, 246, 245);
+  font-size: 1em;
+  letter-spacing: 2px;
+  padding: 5% 1%;
+  margin-bottom: 30px;
+  font-family: "Adobe Caslon Pro", Georgia;
+  font-weight: lighter;
 }
+
+nav li:hover {
+  background-color: rgb(234, 246, 245);
+  color: rgb(39, 167, 160); ;
+}
+
+
+
+
+
+
+
+
