@@ -23,6 +23,28 @@
      </div> <!-- end side_bar -->
     </div> <!-- end side_bar_container -->
 
-<h1 class="temp">Contact</h1>
+<!-- <h1 class="temp">Contact</h1> -->
+
+  <!-- Contact Form -->
+  <div class="contact_form">
+     <form id="contactform" method="post">
+    
+    <label for="field1"><input type="text" name= "name" value="name" onfocus="this.value = this.value=='name'?'':this.value;" onblur="this.value = this.value==''?'name':this.value;"/></label>
+    
+    <label for="field2"><input type="email" name= "email" value="email" onfocus="this.value = this.value=='email'?'':this.value;" onblur="this.value = this.value==''?'email':this.value;"/></label>
+    
+    <!-- <label for="field3"><input type="text" name= "phone" value="phone" onfocus="this.value = this.value=='phone'?'':this.value;" onblur="this.value = this.value==''?'phone':this.value;" maxlength="15" /></label><br> -->
+     
+    <label for="field4"><input type="text" name= "subject" value="subject" onfocus="this.value = this.value=='subject'?'':this.value;" onblur="this.value = this.value==''?'subject':this.value;"/></label><br>
+
+    <textarea type="text" name="message" placeholder="message" class="textarea-field" onfocus="this.placeholder = this.placeholder=='message'?'':this.placeholder;" onblur="this.placeholder = this.placeholder==''?'message':this.placeholder;"></textarea>
+
+    <input type="hidden" name="_next" value="/" />
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <label><span>&nbsp;</span><input class="button"type="submit" value="SUBMIT" /></label>
+    </form>
+  </div>
+
   </body>
 </html>

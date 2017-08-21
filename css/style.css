@@ -85,7 +85,7 @@ a {
   float: left;
   height: auto;
   width: 15em;
-  opacity: .92;
+  opacity: .98;
 }
 
 nav {
@@ -93,8 +93,8 @@ nav {
   float: left;
   background-color: rgb(39, 167, 160);
   width: 15em;
-  padding-bottom: 100%;
-  opacity: .92;
+  padding-bottom: 110%;
+  opacity: .98;
 }
 
 nav ul {
@@ -106,17 +106,17 @@ nav li {
   color: rgb(234, 246, 245);
   font-size: 1em;
   letter-spacing: 2px;
-  padding: 3% 1%;
+  padding: 7% 1% 5% 1%;
   margin-bottom: 30px;
   font-family: "Adobe Caslon Pro", Georgia;
   font-weight: lighter;
-  transition: .2s;
+  transition: .5s;
 }
 
 nav li:hover {
   background-color: rgb(234, 246, 245);
   color: rgb(39, 167, 160); ;
-  transition: .5s;
+  transition: .8s;
 }
 
 /*About Page*/
@@ -184,14 +184,61 @@ nav li:hover {
   font-size: 2em;
   margin-left: 10%;
 }
-
-
-
-
-
-
 /*End About Page*/
 
+/*Contact Page*/
+.contact_form {
+  margin-left: 20%;
+  margin-top: 50px;
+}
+
+form {
+
+  margin-left: 20%;
+  
+}
+
+input {
+  height: 3em;
+  width: 12em;
+  border-radius: 2px;
+  padding-left: 5px;
+  margin-left: 1.5%;
+  margin-bottom: 10px;
+  border: 1.3px solid rgb(39, 167, 160);
+  color: ;
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1em;
+}
+
+textarea {
+  border: 1.3px solid rgb(39, 167, 160);
+  height: 20em;
+  width: 40em;
+  padding: 10px 5px;
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1em;
+  color: black !important;
+}
+
+.button {
+  margin-left: 28%;
+  background-color: rgb(39, 167, 160);
+  color: rgb(234, 246, 245);
+  font-family: 'Adobe Caslon Pro';
+  border: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: .9;
+  transition: .5s;
+
+}
+
+
+
+/*End Contact Page*/
 
 
 
