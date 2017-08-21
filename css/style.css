@@ -12,11 +12,20 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden; 
+
+  /*Background image for home page*/
+  background: url()
+  
 }
 
 @font-face {
  font-family: 'Adobe Caslon Pro';
   src: url(../fonts/adobe_caslon_pro.ttf);
+}
+
+@font-face {
+ font-family: 'Edwardian';
+  src: url(../fonts/edwardian.ttf);
 }
 
 ul {
@@ -29,6 +38,19 @@ a {
 
 .temp {
   margin-left: 50%;
+  font-family: 'Edwardian';
+  font-size: 3em;
+}
+
+.background_img {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #side_bar_container {
@@ -46,6 +68,7 @@ a {
   float: left;
   height: auto;
   width: 15em;
+  opacity: .92;
 }
 
 nav {
@@ -54,6 +77,7 @@ nav {
   background-color: rgb(39, 167, 160);
   width: 15em;
   padding-bottom: 100%;
+  opacity: .92;
 }
 
 nav ul {
@@ -65,7 +89,7 @@ nav li {
   color: rgb(234, 246, 245);
   font-size: 1em;
   letter-spacing: 2px;
-  padding: 5% 1%;
+  padding: 3% 1%;
   margin-bottom: 30px;
   font-family: "Adobe Caslon Pro", Georgia;
   font-weight: lighter;
@@ -77,6 +101,78 @@ nav li:hover {
   color: rgb(39, 167, 160); ;
   transition: .5s;
 }
+
+/*About Page*/
+.about_main {
+  height: 80vh;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 17em;
+  margin-bottom: 10em;
+  /*float: left;*/
+}
+
+.about_main h1{
+  margin-left: 40%;
+  font-family: 'Edwardian';
+  font-size: 2.5em;
+}
+
+.bio_img {
+  border: 1px solid black;
+  float: left;
+  width: 35%;
+  margin-right: 2em;
+  margin-top: 75px;
+}
+
+.bio {
+  width: 85%;
+  padding-top: 75px;
+  margin-left: 5em;
+}
+
+.bio p {
+  margin-top: 1em;
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1em;
+}
+
+.creative_process {
+  margin-top: 10%;
+  margin-left: 16em;
+  height: 95vh;
+}
+
+.creative_process h1 {
+  font-family: 'Edwardian';
+  margin-left: 40%;
+}
+
+.creative_process p {
+  /*text-align: center;*/
+  font-family: 'Adobe Caslon Pro';
+  display: inline:block;
+  float: left;
+  padding:1em;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 33.3%;
+}
+
+.creative_process h3 {
+  font-family: 'Edwardian';
+  font-size: 2em;
+  margin-left: 10%;
+}
+
+
+
+
+
+
+/*End About Page*/
 
 
 
