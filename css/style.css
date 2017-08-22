@@ -68,7 +68,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-
+  z-index: -999;
 }
 
 #side_bar_container {
@@ -265,11 +265,25 @@ textarea {
   transition: .5s;
   
 }
-
-
-
 /*End Contact Page*/
-
+/*Thank you page*/
+.thanks_box {
+  margin-left: 30%;
+  margin-top: 5em;
+  height: 100%;
+  width: 40em;
+  text-align: center;
+  padding: 15% 5%;
+  font-family: 'Adobe Caslon Pro';
+  background-color: rgb(39, 167, 160);
+  color: rgb(234, 246, 245);
+  font-size: 1.2em;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 30px;
+  border-radius: 2px;
+  opacity: .95;
+}
 
 
 
