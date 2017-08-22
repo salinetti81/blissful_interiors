@@ -225,6 +225,7 @@ input {
 
 textarea {
   border: 1.3px solid rgb(39, 167, 160);
+  border-radius: 2px;
   height: 20em;
   width: 40em;
   padding: 10px 5px;
