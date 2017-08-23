@@ -2,15 +2,14 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js"></script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blissful Interiors</title>
   </head>
   <body>
-    <div class="background_img">
-      <img src="http://jordansworkshop.com/wp-content/uploads/2017/02/Bishopswood-Contemporary-Kitchen-and-dining-room.jpg" alt="" >
-    </div>
-    <div id="side_bar_container">
+  
+    <!-- background slideshow -->
+  <div id="side_bar_container">
      <div class="side_bar">
        <a href="index.html">
          <img class="logo" src="img/blissful_logo.png" alt="">
@@ -25,5 +24,45 @@
        </nav>
      </div> <!-- end side_bar -->
     </div> <!-- end side_bar_container -->
+
+  <div id="vanilla-slideshow-container">
+    <div id="vanilla-slideshow">
+      <div class="vanilla-slide">
+        <img src="http://jordansworkshop.com/wp-content/uploads/2017/02/Bishopswood-Contemporary-Kitchen-and-dining-room.jpg" alt="Alt">
+      </div>
+      <div class="vanilla-slide" >
+        <img src="https://static1.squarespace.com/static/5627ec30e4b0dc30fe462054/t/56afe1fe62cd94362f887d92/1454367234432/JHID-MidCentury-1221-3000.jpg?format=2500w" alt="Alt">
+      </div>
+      <div class="vanilla-slide" >
+        <img src="https://s3.amazonaws.com/media.interiordesign.net/fmx_interior_design_co_xiamen_china_kitchen_bath_open_plan_glass_box.jpg" alt="Alt">
+      </div>
+      <div class="vanilla-slide" >
+        <img src="http://cdn.home-designing.com/wp-content/uploads/2014/11/geometric-area-rug.jpeg" alt="Alt">
+      </div>
+  </div>
+
+  <!-- slideshow indicators -->
+  <div id="vanilla-indicators"></div>
+  <!-- slideshow arrows -->
+  <div id="vanilla-slideshow-previous">
+    <img src="" alt="">
+  </div>
+  <div id="vanilla-slideshow-next">
+    <img src="" alt="">
+  </div>
+</div> <!-- end background slideshow -->
+
+<script src="js/vanillaSlideshow.min.js"></script>
+<script>
+  vanillaSlideshow.init({
+    slideshow: true,
+    delay: 5000,
+    arrows: true,
+    indicators: true,
+    random: false,
+    animationSpeed: '1s'
+  });
+</script>
   </body>
+  <script src="js/app.js"></script>
 </html>
