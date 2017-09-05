@@ -175,6 +175,26 @@ a {
   /*padding: 5% 5% 100% 5%;*/
 }
 
+/*Slide in animation for home page*/
+#slide_in {
+  position: absolute;
+  left: -250px;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: .5s;
+  animation: slide 0.5s forwards;
+  animation-delay: .5s;
+}
+
+@-webkit-keyframes slide {
+  100% { left: 0; }
+}
+
+@keyframes slide {
+  100% { left: 0; }
+}
+
 .logo {
   float: left;
   height: auto;
