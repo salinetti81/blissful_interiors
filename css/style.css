@@ -585,6 +585,11 @@ div.desc {
     width: auto;
   }
 
+  /*Interiors Page*/
+  .image_gallery {
+    margin-left: 1.5em;
+  }
+
   footer {
     background-color: rgb(39, 167, 160);
     height: auto;
