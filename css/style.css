@@ -483,8 +483,8 @@ div.desc {
     display: inline-block;
   }
 
-  .page_title h2 {
-    margin-bottom: 0;
+  .page_title  {
+    display: none;
   }
   
   /*Home Page*/
@@ -588,6 +588,29 @@ div.desc {
   /*Interiors Page*/
   .image_gallery {
     margin-left: 1em;
+  }
+
+  /*Contact Page*/
+  .contact_form {
+    margin: 15% 0 20% 0;
+  }
+  form {
+    margin-left: 10%;
+  }
+
+  input {
+    width: 18em;
+    height: 2.5em;
+  }
+
+  textarea {
+    height: 10em;
+    width: 18em;
+  }
+
+  .button {
+    margin-left: 12%;
+    width: 13em;
   }
 
   footer {
