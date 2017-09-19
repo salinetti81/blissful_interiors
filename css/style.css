@@ -482,7 +482,12 @@ div.desc {
   .mobile_only {
     display: inline-block;
   }
+
+  .page_title h2 {
+    margin-bottom: 0;
+  }
   
+  /*Home Page*/
   #side_bar_container {
     display: none;
   }
@@ -492,16 +497,6 @@ div.desc {
     width: 100%;
     /*padding-bottom: 15%;*/
   }
-
-  .mobile_only header h1 {
-    font-family: 'Edwardian';
-    color: rgb(234, 246, 245);
-  }
-  
-    .mobile_only header h1 span {
-    font-family: "Adobe Caslon Pro", Georgia;
-  }
-
 
   .mobile_only header img {
     height: 75px;
@@ -554,6 +549,40 @@ div.desc {
     text-align: center;
     padding: 11% 3% 24%;
     margin: -2% 0;
+  }
+  /*End Home Page*/
+
+  /*About Page*/
+  .about_main {
+    margin-left: 0;
+    /*margin-bottom: 14em;*/
+    /*width: auto;*/
+    /*text-align: center;*/
+  }
+  
+  .bio {
+    width: 89%;
+    margin-left: 3em;
+  }
+
+  .bio_img {
+    width: auto;
+    margin: 0 30% 4%;
+  }
+
+  .creative_process {
+    text-align: center;
+    margin-left: 0;
+    width: auto;
+  }
+
+  .creative_process h2 {
+    margin-left: 0;
+  }
+
+  .creative_process p {
+    float: none;
+    width: auto;
   }
 
   footer {
