@@ -611,6 +611,7 @@ div.desc {
   .button {
     margin-left: 12%;
     width: 13em;
+    -webkit-appearance: none;
   }
 
   footer {
