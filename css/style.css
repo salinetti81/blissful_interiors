@@ -513,12 +513,13 @@ div.desc {
     padding: 2%;
     width: 19em;
     margin-top: -7%;
-    margin-left: 17%;
+    margin-left: 22%;
   }
 
   .mobile_only nav ul {
     padding: 0;
     font-size: .5em;
+    text-align: left;
     /*margin-left: -13px;*/
   }
 
