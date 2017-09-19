@@ -542,6 +542,19 @@ div.desc {
 
   }
 
+  .mobile_only p {
+    background-color: rgb(39, 167, 160);
+    font-family: "Adobe Caslon Pro", Georgia;
+    font-weight: lighter;
+    color: rgb(234, 246, 245);
+    letter-spacing: 1px;
+    font-size: 1em;
+    line-height: 23px; 
+    text-align: center;
+    padding: 11% 3% 24%;
+    margin: -1% 0;
+  }
+
   footer {
     background-color: rgb(39, 167, 160);
     height: auto;
@@ -554,7 +567,7 @@ div.desc {
     letter-spacing: 1px;
     font-size: .8em;
     line-height: 30px;
-    margin-top: -3%;
+    margin-top: auto;
   }
 
 }
