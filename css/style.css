@@ -490,7 +490,7 @@ div.desc {
   .mobile_only header {
     background-color: rgb(39, 167, 160);
     width: 100%;
-    padding-bottom: 15%;
+    /*padding-bottom: 15%;*/
   }
 
   .mobile_only header h1 {
@@ -504,21 +504,22 @@ div.desc {
 
 
   .mobile_only header img {
-    height: 200px;
-    width: 200px;
-    margin: 0 22%;
+    height: 75px;
+    width: 75px;
+    margin: 0 5px;
   }
 
   .mobile_only nav {
     padding: 2%;
-    width: 24.4em;
-    margin-top: 4%;
+    width: 19em;
+    margin-top: -7%;
+    margin-left: 17%;
   }
 
   .mobile_only nav ul {
     padding: 0;
-    font-size: .88em;
-    margin-left: -13px;
+    font-size: .5em;
+    /*margin-left: -13px;*/
   }
 
   .mobile_only nav li {
