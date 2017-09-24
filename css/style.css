@@ -211,8 +211,9 @@ nav {
   float: left;
   background-color: rgb(39, 167, 160);
   width: 15em;
-  padding-bottom: 110%;
+  padding-bottom: 100vh;
   opacity: .98;
+  margin-top: -1%;
 }
 
 nav ul {
@@ -494,7 +495,7 @@ div.desc {
 
   .mobile_only header {
     background-color: rgb(39, 167, 160);
-    width: 100%;
+    width: 110%;
     /*padding-bottom: 15%;*/
   }
 
@@ -697,7 +698,9 @@ iPad 3
 
 /* iPhone 5 ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-
+  .mobile_only nav {
+    width: ;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
@@ -715,7 +718,10 @@ iPad 3
 
 /* iPhone 6+ ----------- */
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-
+  .mobile_only nav {
+    width: 110%;
+  }
+}
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
