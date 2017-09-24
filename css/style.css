@@ -235,6 +235,31 @@ nav li:hover {
   transition: .8s;
 }
 
+.social {
+  margin-left: 63%;
+  text-align: left;
+}
+
+.social ul {
+  display: inline-block;
+  /*text-align: left;*/
+}
+
+.social li {
+  padding: 0;
+  margin: 0px -44px;
+  display: inline-block;
+}
+
+.social li:hover {
+  background: none;
+}
+
+.social img {
+  height: 32px;
+  width: 32px;
+}
+
 .active {
   background-color: rgb(234, 246, 245);
   color: rgb(39, 167, 160); ;
