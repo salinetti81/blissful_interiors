@@ -172,11 +172,8 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  /*width: 100%;*/
   bottom: 0;
   z-index: 9999;
-  /*background-color: rgb(39, 167, 160);*/
-  /*padding: 5% 5% 100% 5%;*/
 }
 
 /*Slide in animation for home page*/
@@ -187,7 +184,7 @@ a {
   height: 100px;
   -webkit-animation: slide 0.5s forwards;
   -webkit-animation-delay: .5s;
-  animation: slide 0.5s forwards;
+  animation: slide 1s forwards;
   animation-delay: .5s;
 }
 
@@ -318,6 +315,7 @@ nav li:hover {
 }
 
 .page_title {
+  display: none;
   font-family: 'Adobe Caslon Pro';
   margin-bottom: 50px;
   text-align: center;
