@@ -336,7 +336,7 @@ nav li:hover {
 /*Contact Page*/
 .contact_form {
   margin-left: 15%;
-  margin-top: 5%;
+  margin-top: 7em;
 }
 
 .page_title {
@@ -434,7 +434,7 @@ textarea {
 /*Interiors*/
 .image_gallery {
   width: 90%;
-  margin-top: 5%;
+  margin-top: 6em;
   margin-left: 20em;
   margin-bottom: 20%;
 }
