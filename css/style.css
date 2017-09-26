@@ -302,8 +302,22 @@ nav li:hover {
   font-size: 1em;
 }
 
+#creativeSlideUp {
+  font-family: 'Adobe Caslon Pro';
+  transition: .5s;
+  font-size: 1.1em;
+  margin-top: 8%;
+  text-align: center;
+}
+
+#creativeSlideUp:hover {
+  cursor: pointer;
+  color: rgb(39, 167, 160);
+  transition: .5s;
+}
+
 .creative_process {
-  margin-top: 10%;
+  /*margin-top: -15%;*/
   margin-left: 16em;
   height: 95vh;
 }
@@ -315,7 +329,7 @@ nav li:hover {
 }
 
 .creative_process p {
-  /*text-align: center;*/
+  text-align: center;
   font-family: 'Adobe Caslon Pro';
   display: inline:block;
   float: left;
@@ -333,7 +347,7 @@ nav li:hover {
 }
 /*End About Page*/
 
-/*Contact Page*/
+Contact Page
 .contact_form {
   margin-left: 15%;
   margin-top: 7em;

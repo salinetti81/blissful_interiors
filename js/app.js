@@ -4,7 +4,7 @@
 $(document).ready(function() {
   $("#creativeSlideUp").click(function() {
     $('html, body').animate({
-      scrollTop: $("#creativeProcess").offset().top -70},
+      scrollTop: $("#creativeProcess").offset().top -10},
         'slow');
   });
 });//ends document.ready for jQuery
