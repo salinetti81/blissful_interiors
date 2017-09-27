@@ -437,8 +437,8 @@ textarea {
 /*Thank you page*/
 .thanks_box {
   margin-left: 30%;
-  margin-top: 5em;
-  height: 100%;
+  margin-top: 7em;
+  height: auto;
   width: 40em;
   text-align: center;
   padding: 15% 5%;
