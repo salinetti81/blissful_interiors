@@ -44,7 +44,6 @@ a {
 }
 
 /*homepage background slideshow*/
-/*@import url(http://fonts.googleapis.com/css?family=PT+Sans);*/
 #vanilla-slideshow-container { 
   width: 100%; 
   height: 100%; 
@@ -84,7 +83,6 @@ a {
 }
 
 /* Arrows */
-
 #vanilla-slideshow-previous {
   position: absolute;
   left: 10px;
@@ -116,7 +114,6 @@ a {
 }
 
 /* Indicators */
-
 #vanilla-indicators {
   display: inline-block;
   z-index: 5;
@@ -141,15 +138,12 @@ a {
 /*end homepage slideshow*/
 
 .background_img img {
-
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
-  
   /* Set up proportionate scaling */
   width: 100%;
   height: auto;
-  
   /* Set up positioning */
   position: fixed;
   top: 0;
@@ -249,8 +243,6 @@ nav li:hover {
   width: 32px;
 }
 
-
-
 .active {
   background-color: rgb(234, 246, 245);
   color: rgb(39, 167, 160); ;
@@ -265,12 +257,6 @@ nav li:hover {
   margin-bottom: 10em;
   /*float: left;*/
 }
-
-/*.about_main h1{
-  margin-left: 40%;
-  font-family: 'Edwardian';
-  font-size: 2.5em;
-}*/
 
 .bio_img {
   border: 1px solid gray;
@@ -308,7 +294,6 @@ nav li:hover {
 }
 
 .creative_process {
-  /*margin-top: -15%;*/
   margin-left: 16em;
   height: 95vh;
 }
@@ -347,7 +332,6 @@ nav li:hover {
   -ms-animation: fadein 1.5s; /* Internet Explorer */
   -o-animation: fadein 1.5s; /* Opera < 12.1 */
   animation: fadein 1.5s;
-
 }
 
 @keyframes fadein {
@@ -379,7 +363,6 @@ nav li:hover {
     to   { opacity: 1; }
 }
 
-
 .page_title {
   display: none;
   font-family: 'Adobe Caslon Pro';
@@ -399,7 +382,6 @@ input {
   padding-left: 5px;
   margin-right: 3.2%;
   margin-bottom: 10px;
-  /*border: 1.3px solid rgb(39, 167, 160);*/
   color: ;
   font-family: 'Adobe Caslon Pro';
   font-size: 1em;
@@ -407,7 +389,6 @@ input {
 }
 
 textarea {
-  /*border: 1.3px solid rgb(39, 167, 160);*/
   border-radius: 2px;
   height: 20em;
   width: 40em;
@@ -450,9 +431,9 @@ textarea {
   cursor: pointer;
   opacity: .92;
   transition: .5s;
-  
 }
 /*End Contact Page*/
+
 /*Thank you page*/
 .thanks_box {
   margin-left: 30%;
@@ -483,7 +464,6 @@ textarea {
   -ms-animation: fadein 1.5s; /* Internet Explorer */
   -o-animation: fadein 1.5s; /* Opera < 12.1 */
   animation: fadein 1.5s;
-
 }
 
 .image_gallery .page_title {
@@ -517,34 +497,30 @@ div.desc {
 }
 
 .responsive {
-    padding: 0 10px;
-    margin: 10px 0;
-    float: left;
-    width: 26%;
+  padding: 0 10px;
+  margin: 10px 0;
+  float: left;
+  width: 26%;
 }
 
 @media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
 
 @media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
+  .responsive {
+    width: 100%;
+  }
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
-/*End Interiors*/
-/*Interiors Slideshow*/
-
-
 /*End Interiors Slideshow*/
 
 /*=========MEDIA QUERIES=========*/
@@ -566,7 +542,6 @@ div.desc {
   .mobile_only header {
     background-color: rgb(39, 167, 160);
     width: 110%;
-    /*padding-bottom: 15%;*/
   }
 
   .mobile_only header img {
@@ -586,7 +561,6 @@ div.desc {
     padding: 0;
     font-size: .5em;
     text-align: left;
-    /*margin-left: -13px;*/
   }
 
   .mobile_only nav li {
@@ -595,11 +569,11 @@ div.desc {
   }
 
   #vanilla-slideshow-container { 
-  display: none;
-  width: 50%; 
-  height: 50%; 
-  position: relative; 
-  text-align: center;
+    display: none;
+    width: 50%; 
+    height: 50%; 
+    position: relative; 
+    text-align: center;
   }
 
   .mobile_only .temp_img {
@@ -626,9 +600,6 @@ div.desc {
   /*About Page*/
   .about_main {
     margin-left: 0;
-    /*margin-bottom: 14em;*/
-    /*width: auto;*/
-    /*text-align: center;*/
   }
   
   .bio {
@@ -699,21 +670,17 @@ div.desc {
     line-height: 30px;
     margin-top: auto;
   }
-
 }
 
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {
     #side_bar_container {
-    /*display: none;*/
     }
 
     .logo {
-      /*display: inline-block;*/
     }
 
     #vanilla-slideshow-container {
-      /*display: none;*/
     }
 
 }
