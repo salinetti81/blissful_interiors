@@ -184,6 +184,7 @@ a {
   height: auto;
   width: 15em;
   opacity: .98;
+  margin-top: -4em;
 }
 
 nav {
@@ -193,12 +194,13 @@ nav {
   width: 15em;
   padding-bottom: 100vh;
   opacity: .98;
-  margin-top: -1%;
+  margin-top: 0;
 }
 
 nav ul {
   text-align: center;
   padding: 20%;
+  margin-top: -3em;
 }
 
 nav li {
@@ -219,7 +221,7 @@ nav li:hover {
 }
 
 .social {
-  margin-left: 63%;
+  margin: -3em 63%;
   text-align: left;
 }
 
@@ -608,7 +610,7 @@ div.desc {
   }
 
   .bio_img {
-    width: auto;
+    width: 60%;
     margin: 0 30% 4%;
   }
 
