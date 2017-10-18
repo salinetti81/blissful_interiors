@@ -189,7 +189,7 @@ a {
 nav {
   clear: both;
   float: left;
-  background-color: rgb(157, 141, 133);
+  background-color: rgb(150, 137, 127);
   width: 15em;
   padding-bottom: 100vh;
   opacity: .98;
@@ -214,7 +214,7 @@ nav li {
 
 nav li:hover {
   background-color: rgb(234, 246, 245);
-  color: rgb(157, 141, 133); 
+  color: rgb(150, 137, 127); 
   transition: .8s;
 }
 
@@ -245,7 +245,7 @@ nav li:hover {
 
 .active {
   background-color: rgb(234, 246, 245);
-  color: rgb(157, 141, 133); ;
+  color: rgb(150, 137, 127); ;
 }
 
 /*About Page*/
@@ -259,7 +259,7 @@ nav li:hover {
 }
 
 .bio_img {
-  border: 1px solid gray;
+  /*border: 1px solid gray;*/
   border-radius: 2px;
   float: left;
   width: 35%;
@@ -289,7 +289,7 @@ nav li:hover {
 
 #creativeSlideUp:hover {
   cursor: pointer;
-  color: rgb(157, 141, 133);
+  color: rgb(150, 137, 127);
   transition: .5s;
 }
 
@@ -419,7 +419,7 @@ textarea {
   height: 3em;
   margin-left: 25%;
   margin-top: 20px;
-  background-color: rgb(157, 141, 133);
+  background-color: rgb(150, 137, 127);
   color: rgb(234, 246, 245);
   font-family: 'Adobe Caslon Pro';
   border: 0;
@@ -443,7 +443,7 @@ textarea {
   text-align: center;
   padding: 15% 5%;
   font-family: 'Adobe Caslon Pro';
-  background-color: rgb(157, 141, 133);
+  background-color: rgb(150, 137, 127);
   color: rgb(234, 246, 245);
   font-size: 1.2em;
   font-weight: normal;
@@ -487,7 +487,7 @@ div.desc {
   font-family: "Adobe Caslon Pro";
   padding: 15px;
   text-align: center;
-  background-color: rgb(157, 141, 133);
+  background-color: rgb(150, 137, 127);
   color: rgb(234, 246, 245);
   margin-top: -4px;
 }
@@ -540,7 +540,7 @@ div.desc {
   }
 
   .mobile_only header {
-    background-color: rgb(157, 141, 133);
+    background-color: rgb(150, 137, 127);
     width: 110%;
   }
 
@@ -584,7 +584,7 @@ div.desc {
   }
 
   .mobile_only p {
-    background-color: rgb(157, 141, 133);
+    background-color: rgb(150, 137, 127);
     font-family: "Adobe Caslon Pro", Georgia;
     font-weight: lighter;
     color: rgb(234, 246, 245);
@@ -657,7 +657,7 @@ div.desc {
   }
 
   footer {
-    background-color: rgb(157, 141, 133);
+    background-color: rgb(150, 137, 127);
     height: auto;
     width: 100%;
     text-align: center;
