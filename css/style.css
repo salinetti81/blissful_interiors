@@ -47,6 +47,7 @@ a {
 #vanilla-slideshow-container { 
   width: 100%; 
   height: 100%; 
+  z-index: -1000;
   position: relative; 
   text-align: center;
 }
@@ -248,6 +249,38 @@ nav li:hover {
 .active {
   background-color: rgb(234, 246, 245);
   color: rgb(150, 137, 127); ;
+}
+
+/*Home Page*/
+.home_main {
+  background: rgb(150, 137, 127);
+  margin-left: 28em;
+  margin-top: 9em;
+  width: 40%;
+  padding: 3%;
+  opacity: .9;
+  z-index: 1000;
+  /*border-radius: 4%;*/
+  color: rgb(234, 246, 245);
+}
+
+.home_main h2 {
+  font-family: 'Adobe Caslon Pro';
+}
+
+.home_main p {
+  margin-top: 1em;
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1.2em;
+  letter-spacing: .5px;
+}
+
+.home_main a {
+  color: rgb(234, 246, 245);
+  margin-top: 1em;
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1em;
+
 }
 
 /*About Page*/
