@@ -348,6 +348,15 @@ nav li:hover {
   font-size: 1em;
 }
 
+.style a {
+  color: black;
+  font-family: 'Adobe Caslon Pro';
+}
+
+.style a:hover {
+  opacity: .8;
+}
+
 #creativeSlideUp {
   font-family: 'Adobe Caslon Pro';
   transition: .5s;
@@ -418,6 +427,14 @@ nav li:hover {
   margin-right: 2em;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+.process_main a {
+  color: black;
+  font-family: 'Adobe Caslon Pro';
+}
+
+.process_main a:hover {
+  opacity: .8;
 }
 
 /*Services Page*/
