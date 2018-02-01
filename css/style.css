@@ -36,6 +36,12 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-top: 1em;
+  font-family: 'Adobe Caslon Pro';
+  font-size: 1em;
+}
+
 .temp {
   font-family: 'Adobe Caslon Pro';
   margin-top: 50px;
@@ -284,6 +290,13 @@ nav li:hover {
   margin-top: 1em;
   font-family: 'Adobe Caslon Pro';
   font-size: 1em;
+  padding: 7px 10px;
+}
+
+.home_main a:hover {
+  background-color: rgb(234, 246, 245);
+  color: rgb(150, 137, 127); 
+  transition: .8s;
 }
 
 /*About Page*/
@@ -300,7 +313,7 @@ nav li:hover {
   /*border: 1px solid gray;*/
   border-radius: 2px;
   float: left;
-  width: 35%;
+  width: 30%;
   margin-right: 2em;
   margin-top: 75px;
   margin-bottom: 20px;
@@ -309,7 +322,7 @@ nav li:hover {
 .bio {
   width: 85%;
   padding-top: 75px;
-  margin-left: 5em;
+  margin-left: 0em;
 }
 
 .bio p {
@@ -321,7 +334,7 @@ nav li:hover {
 .style {
   width: 85%;
   padding-top: 40px;
-  margin-left: 5em;
+  margin-left: 0em;
   margin-bottom: 5em;
 }
 
@@ -378,6 +391,78 @@ nav li:hover {
   margin-left: 10%;
 }
 /*End About Page*/
+
+/*Process Page*/
+.process_main {
+  height: 80vh;
+  width: 70%;
+  margin-top: 5em;
+  margin-left: 17em;
+  /*margin-bottom: 30em;*/
+  /*float: left;*/
+}
+
+.process_main img {
+  border-radius: 2px;
+  float: left;
+  width: 30%;
+  margin-right: 2em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.process_main img:nth-of-type(2n) {
+  border-radius: 2px;
+  float: right;
+  width: 30%;
+  margin-right: 2em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/*Services Page*/
+.services_main {
+  height: 80vh;
+  width: 70%;
+  margin-top: 2em;
+  margin-left: 17em;
+}
+
+.services_main p:first-child {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+.services_main p:last-child {
+  margin-bottom: 5em;
+}
+
+.services_main img {
+  border-radius: 2px;
+  float: left;
+  width: 30%;
+  margin-right: 2em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.services_main span {
+  font-weight: bold;
+}
+
+/*FAQ Pahe*/
+.faq_main {
+  height: 80vh;
+  width: 70%;
+  margin-top: 4em;
+  margin-left: 17em;
+}
+
+.faq_main span {
+  font-weight: bold;
+  font-size: 1.1em;
+}
 
 /*Contact Page*/
 .contact_form {
