@@ -10,5 +10,5 @@ $(document).ready(function() {
 });//ends document.ready for jQuery
 
 // Hidden email for formspree.io
-var contactform =  document.getElementById('contactform');
-contactform.setAttribute('action', '//formspree.io/' + 'dansalinetti' + '@' + 'gmail' + '.' + 'com');
+// var contactform =  document.getElementById('contactform');
+// contactform.setAttribute('action', '//formspree.io/' + 'dansalinetti' + '@' + 'gmail' + '.' + 'com');

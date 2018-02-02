@@ -619,12 +619,12 @@ textarea {
 
 /*Thank you page*/
 .thanks_box {
-  margin-left: 30%;
-  margin-top: 7em;
+  margin-left: 40%;
+  margin-top: 9em;
   height: auto;
-  width: 40em;
+  width: 25em;
   text-align: center;
-  padding: 15% 5%;
+  padding: 5% 5%;
   font-family: 'Adobe Caslon Pro';
   background-color: rgb(150, 137, 127);
   color: rgb(234, 246, 245);
@@ -786,8 +786,8 @@ div.desc {
   }
   
   .bio {
-    width: 89%;
-    margin-left: 3em;
+    width: 50%;
+    margin-left: 5em;
   }
 
   .bio_img {
