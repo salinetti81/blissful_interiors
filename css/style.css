@@ -228,6 +228,7 @@ nav li:hover {
 }
 
 .social {
+  display: none;
   margin: -3em 63%;
   text-align: left;
 }
@@ -259,6 +260,7 @@ nav li:hover {
 
 /*Home Page*/
 .home_main {
+  display: none;
   background: rgb(150, 137, 127);
   margin-left: 28em;
   margin-top: 9em;
@@ -468,7 +470,7 @@ nav li:hover {
   font-weight: bold;
 }
 
-/*FAQ Pahe*/
+/*FAQ Page*/
 .faq_main {
   height: 80vh;
   width: 70%;
@@ -490,6 +492,29 @@ nav li:hover {
   -ms-animation: fadein 1.5s; /* Internet Explorer */
   -o-animation: fadein 1.5s; /* Opera < 12.1 */
   animation: fadein 1.5s;
+}
+
+.contact_info {
+  font-size: 1.2em;
+  text-align: center;
+  background: rgb(150, 137, 127);
+  margin-left: 28%;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  width: 42%;
+  padding: 1%;
+  z-index: 1000;
+  color: rgb(234, 246, 245);
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2.5s; /* Firefox < 16 */
+  -ms-animation: fadein 2.5s; /* Internet Explorer */
+  -o-animation: fadein 2.5s; /* Opera < 12.1 */
+  animation: fadein 2.5s;
+  opacity: .99;
+}
+
+.contact_info a {
+  color: white;
 }
 
 @keyframes fadein {
