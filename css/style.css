@@ -19,7 +19,8 @@ html, body {
 }
 
 @font-face {
- font-family: 'Adobe Caslon Pro';
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+ font-weight: 300;
   src: url(../fonts/adobe_caslon_pro.ttf);
 }
 
@@ -38,12 +39,14 @@ a {
 
 p {
   margin-top: 1em;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 1em;
 }
 
 .temp {
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   margin-top: 50px;
   text-align: center;
   letter-spacing: 2px;
@@ -204,6 +207,19 @@ nav {
   margin-top: 0;
 }
 
+nav p {
+  margin-left: 1em;
+  margin-top: -5%;
+  margin-bottom: 15%;
+  color: rgb(234, 246, 245);
+  font-style: italic;
+  text-align: center;
+}
+
+nav hr {
+  color: black;
+}
+
 nav ul {
   text-align: center;
   padding: 20%;
@@ -216,7 +232,8 @@ nav li {
   letter-spacing: 2px;
   padding: 7% 1% 5% 1%;
   margin-bottom: 15px;
-  font-family: "Adobe Caslon Pro", Georgia;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; Georgia;
   font-weight: lighter;
   transition: .5s;
 }
@@ -277,12 +294,14 @@ nav li:hover {
 }
 
 .home_main h2 {
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
 }
 
 .home_main p {
   margin-top: 1em;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 1.2em;
   letter-spacing: .5px;
 }
@@ -290,7 +309,8 @@ nav li:hover {
 .home_main a {
   color: rgb(234, 246, 245);
   margin-top: 1em;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 1em;
   padding: 7px 10px;
 }
@@ -341,7 +361,8 @@ nav li:hover {
 
 .bio p {
   margin-top: 1em;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 1em;
 }
 
@@ -358,13 +379,15 @@ nav li:hover {
 
 .style p {
   margin-top: 1em;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 1em;
 }
 
 .style a {
   color: black;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
 }
 
 .style a:hover {
@@ -372,7 +395,8 @@ nav li:hover {
 }
 
 #creativeSlideUp {
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   transition: .5s;
   font-size: 1.1em;
   margin-top: 6%;
@@ -391,14 +415,16 @@ nav li:hover {
 }
 
 .creative_process h2 {
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   margin-left: 40%;
   font-size: ;
 }
 
 .creative_process p {
   text-align: center;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   display: inline:block;
   float: left;
   padding:1em;
@@ -444,7 +470,8 @@ nav li:hover {
 }
 .process_main a {
   color: black;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   transition: .5s;
 }
 
@@ -565,7 +592,8 @@ nav li:hover {
 
 .page_title {
   display: none;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   margin-bottom: 50px;
   text-align: center;
   letter-spacing: 2px;
@@ -583,7 +611,8 @@ input {
   margin-right: 3.2%;
   margin-bottom: 10px;
   color: ;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 1em;
   opacity: .96;
 }
@@ -593,7 +622,8 @@ textarea {
   height: 20em;
   width: 40em;
   padding: 10px 5px;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   font-size: 1em;
   resize: none;
   opacity: .96;
@@ -621,7 +651,8 @@ textarea {
   margin-top: 20px;
   background-color: rgb(150, 137, 127);
   color: rgb(234, 246, 245);
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   border: 0;
   letter-spacing: 2px;
   opacity: 1;
@@ -642,7 +673,8 @@ textarea {
   width: 25em;
   text-align: center;
   padding: 5% 5%;
-  font-family: 'Adobe Caslon Pro';
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   background-color: rgb(150, 137, 127);
   color: rgb(234, 246, 245);
   font-size: 1.2em;
@@ -684,7 +716,8 @@ div.gallery img {
 }
 
 div.desc {
-  font-family: "Adobe Caslon Pro";
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
   padding: 15px;
   text-align: center;
   background-color: rgb(150, 137, 127);
@@ -787,7 +820,8 @@ div.desc {
 
   .mobile_only p {
     background-color: rgb(150, 137, 127);
-    font-family: "Adobe Caslon Pro", Georgia;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300; Georgia;
     font-weight: lighter;
     color: rgb(234, 246, 245);
     letter-spacing: 1px;
@@ -892,7 +926,8 @@ div.desc {
     width: 100%;
     text-align: center;
     padding: 1%;
-    font-family: "Adobe Caslon Pro", Georgia;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300; Georgia;
     font-weight: lighter;
     color: rgb(234, 246, 245);
     letter-spacing: 1px;
