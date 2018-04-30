@@ -204,20 +204,26 @@ nav {
   width: 15em;
   padding-bottom: 100vh;
   opacity: .98;
-  margin-top: 0;
+  margin-top: -56px;
+}
+
+nav hr {
+  border: 0;
+    margin: 10% 32px;
+    clear: both;
+    display: block;
+    width: 80%;
+    background-color: rgb(234, 246, 245);
+    height: 1px;
 }
 
 nav p {
   margin-left: 1em;
   margin-top: -5%;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
   color: rgb(234, 246, 245);
   font-style: italic;
   text-align: center;
-}
-
-nav hr {
-  color: black;
 }
 
 nav ul {
@@ -230,8 +236,8 @@ nav li {
   color: rgb(234, 246, 245);
   font-size: 1em;
   letter-spacing: 2px;
-  padding: 7% 1% 5% 1%;
-  margin-bottom: 15px;
+  padding: 1% 1% 5% 1%;
+  margin-bottom: 12px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300; Georgia;
   font-weight: lighter;
