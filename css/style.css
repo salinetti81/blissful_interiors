@@ -44,6 +44,7 @@ p {
   font-size: 1em;
 }
 
+
 .temp {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
@@ -209,12 +210,12 @@ nav {
 
 nav hr {
   border: 0;
-    margin: 10% 32px;
-    clear: both;
-    display: block;
-    width: 80%;
-    background-color: rgb(234, 246, 245);
-    height: 1px;
+  margin: 10% 32px;
+  clear: both;
+  display: block;
+  width: 80%;
+  background-color: rgb(234, 246, 245);
+  height: 1px;
 }
 
 nav p {
@@ -333,14 +334,49 @@ nav li:hover {
   width: 60%;
   margin-top: 3em;
   margin-left: 21em;
-  margin-bottom: 40em;
+  margin-bottom: 60em;
+}
+
+.about_main p:first-of-type {
+  color: rgb(71, 129, 141);
+  text-align: center;
+  font-size: 1.19em;
+}
+
+.about_main hr {
+  border: 0;
+  margin: 2% ;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: rgb(71, 129, 141);
+  height: 1px;
+
+}
+
+.about_main h3 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  color: rgb(71, 129, 141);
+  font-size: 1.9em;
 }
 
 .about_main h3:nth-of-type(2n) {
-  margin-top: 2em;
+  margin-top: 8em;
+}
+
+.about_main h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin-top: 5px;
+  letter-spacing: 2px;
+  font-size: 1.3em;
 }
 
 .about_main a {
+  font-weight: bold;
   color: black;
   transition: .5s;
 }
@@ -349,13 +385,55 @@ nav li:hover {
   opacity: .8;
   transition: .5s;
 }
+
+.about_main p span {
+  color: rgb(71, 129, 141);
+  font-style: italic;
+}
+
+.about_main p span:nth-last-child(2){
+  font-style: normal;
+}
+
 .bio_img {
   /*border: 1px solid gray;*/
+  border-radius: 2px;
+  float: right;
+  width: 30%;
+  margin-right: 2em;
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+
+figure {
+  display:inline-block;
+  margin:10px;
+  max-width:100px;
+  vertical-align:top;
+}
+
+figure img {
+  display:inline;
+  border-radius: 2px;
+  float: left;
+  width: 100%;
+  margin-right: 2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+figcaption {
+  display:block;
+  padding: 0;
+  text-align: center;
+}
+
+.spicerack {
   border-radius: 2px;
   float: left;
   width: 30%;
   margin-right: 2em;
-  margin-top: 75px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
