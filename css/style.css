@@ -531,7 +531,7 @@ nav li:hover {
   width: 60%;
   margin-top: 3em;
   margin-left: 21em;
-  margin-bottom: 10em;
+  margin-bottom: 20em;
   /*float: left;*/
 }
 
@@ -597,14 +597,37 @@ nav li:hover {
   margin-bottom: 10em;
 }
 
-.services_main p:first-child {
-  font-size: 1.2em;
-  font-style: italic;
-  margin-bottom: 1em;
+.services_main hr {
+  border: 0;
+  margin: 2% ;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: rgb(71, 129, 141);
+  height: 1px;
+}
+
+.services_main p:first-of-type {
+  text-align: center;
+  font-size: 1.19em;
+  color: rgb(71, 129, 141);
 }
 
 .services_main p:last-child {
   margin-bottom: 5em;
+}
+
+.services_main li {
+  margin-bottom: 20px;
+}
+
+.services_main ul {
+  list-style-type: disc;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin: 20px 5% 0 5%;
+  
+  
 }
 
 .services_main img {
@@ -617,7 +640,9 @@ nav li:hover {
 }
 
 .services_main span {
-  font-weight: bold;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: rgb(71, 129, 141);
 }
 
 /*FAQ Page*/
