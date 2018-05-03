@@ -334,7 +334,7 @@ nav li:hover {
   width: 60%;
   margin-top: 3em;
   margin-left: 21em;
-  margin-bottom: 60em;
+  margin-bottom: 75em;
 }
 
 .about_main p:first-of-type {
@@ -351,7 +351,6 @@ nav li:hover {
   width: 100%;
   background-color: rgb(71, 129, 141);
   height: 1px;
-
 }
 
 .about_main h3 {
@@ -405,14 +404,14 @@ nav li:hover {
   margin-bottom: 20px;
 }
 
-figure {
+/*figure {
   display:inline-block;
   margin:10px;
   max-width:100px;
   vertical-align:top;
-}
+}*/
 
-figure img {
+/*figure img {
   display:inline;
   border-radius: 2px;
   float: left;
@@ -421,12 +420,13 @@ figure img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+*/
 
-figcaption {
+/*figcaption {
   display:block;
   padding: 0;
   text-align: center;
-}
+}*/
 
 .spicerack {
   border-radius: 2px;
@@ -434,7 +434,7 @@ figcaption {
   width: 30%;
   margin-right: 2em;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .bio {
@@ -535,11 +535,35 @@ figcaption {
   /*float: left;*/
 }
 
+.process_main hr {
+  border: 0;
+  margin: 2% ;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: rgb(71, 129, 141);
+  height: 1px;
+}
+
+.process_main p:first-of-type {
+  text-align: center;
+  font-size: 1.19em;
+}
+
+.process_main p span {
+  color: rgb(71, 129, 141);
+  font-style: normal;
+}
+
+.process_main p span:last-child{
+  font-style: italic;
+}
+
 .process_main img {
   border-radius: 2px;
-  float: left;
+  float: right;
   width: 40%;
-  margin-right: 2em;
+  margin-left: 2em;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -555,7 +579,7 @@ figcaption {
 .process_main a {
   color: black;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
+  font-weight: bold;
   transition: .5s;
 }
 
