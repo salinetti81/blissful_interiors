@@ -757,6 +757,74 @@ nav li:hover {
   margin-bottom: 12px;
 }
 
+/*Giving*/
+.giving{
+  height: 80vh;
+  width: 60%;
+  margin-top: 3em;
+  margin-left: 21em;
+  margin-bottom: 30em;
+  /*float: left;*/
+}
+
+.giving hr {
+  border: 0;
+  margin: 2% ;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: rgb(71, 129, 141);
+  height: 1px;
+}
+
+.giving h3 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: rgb(71, 129, 141);
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.giving p {
+  
+}
+
+.giving span {
+  color: rgb(71, 129, 141);
+}
+
+.giving span:nth-of-type(2) {
+ /* margin-top: -10px;
+  margin-left: 90%;*/
+  font-size: .8em;
+  
+}
+
+.giving img:first-of-type {
+  border-radius: 2px;
+  float: right;
+  width: 30%;
+  margin-left: 1em;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.humane_society {
+  margin-top: 25em;
+}
+
+.humane_society img {
+  border-radius: 2px;
+  float: left;
+  width: ;
+  height:  ;
+  margin-left: 1em;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
 /*Contact Page*/
 .contact_form {
   margin-left: 15%;
