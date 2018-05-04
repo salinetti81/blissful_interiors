@@ -689,6 +689,16 @@ nav li:hover {
   margin-top: 0;
 }
 
+.faq_main img {
+  border-radius: 2px;
+  float: right;
+  width: 40%;
+  height: ;
+  margin-left: 2em;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
 /*Contact Page*/
 .contact_form {
   margin-left: 15%;
