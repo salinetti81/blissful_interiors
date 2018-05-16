@@ -787,6 +787,18 @@ nav li:hover {
   text-align: center;
 }
 
+.giving h5 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin-top: 2px;
+  margin-left: 8%;
+  letter-spacing: .5px;
+  color: rgb(71, 129, 141);
+  font-size: .9em;
+  text-align: ;
+}
+
+
 .giving p {
   
 }
@@ -802,27 +814,28 @@ nav li:hover {
   
 }
 
-.giving img:first-of-type {
+.giving_img{
   border-radius: 2px;
   float: right;
   width: 30%;
   margin-left: 1em;
   margin-top: 5px;
-  margin-bottom: 12px;
+  margin-bottom: 5px;
 }
 
 .humane_society {
-  margin-top: 25em;
+  margin-top: 13em;
 }
 
-.humane_society img {
-  border-radius: 2px;
-  float: left;
+.humane_img {
+  border-radius: 200px;
+  float: left !important;
   width: ;
   height:  ;
   margin-left: 1em;
-  margin-top: 5px;
+  margin-top: -30px;
   margin-bottom: 12px;
+  margin-right: 10px;
 }
 
 /*Contact Page*/
