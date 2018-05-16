@@ -763,7 +763,7 @@ nav li:hover {
   width: 60%;
   margin-top: 3em;
   margin-left: 21em;
-  margin-bottom: 30em;
+  margin-bottom: 10em;
   /*float: left;*/
 }
 
@@ -799,12 +799,13 @@ nav li:hover {
 }
 
 
-.giving p {
-  
+.animals {
+ margin-top: 5em; 
 }
 
 .giving span {
   color: rgb(71, 129, 141);
+ 
 }
 
 .giving span:nth-of-type(2) {
