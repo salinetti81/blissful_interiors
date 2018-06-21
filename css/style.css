@@ -1111,8 +1111,8 @@ div.desc {
   .mobile_only nav ul {
     padding: 0;
     font-size: .5em;
-    text-align: left;
-    margin-left: -24%;
+    text-align: center;
+    margin-left: -84px;
   }
 
   .mobile_only nav li {
@@ -1120,6 +1120,7 @@ div.desc {
     margin-left: 5px;
     margin-left: 0%;
     margin-right: 0%;
+    font-size: 1.3em;
   }
 
   #vanilla-slideshow-container { 
