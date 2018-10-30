@@ -18,6 +18,11 @@ html, body {
   display: none;
 }
 
+.social {
+  display: inline-block;
+  padding: 12%;
+}
+
 @font-face {
  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
  font-weight: 300;
@@ -252,8 +257,8 @@ nav li:hover {
 }
 
 .social {
-  display: none;
-  margin: -3em 63%;
+  /*display: none;*/
+  margin: -6.1em 56%;
   text-align: left;
 }
 
@@ -264,7 +269,7 @@ nav li:hover {
 
 .social li {
   padding: 0;
-  margin: 0px -44px;
+  margin: 0px -50px;
   display: inline-block;
 }
 
@@ -705,7 +710,7 @@ nav li:hover {
   width: 60%;
   margin-top: 3em;
   margin-left: 21em;
-  margin-bottom: 30em;
+  margin-bottom: 40em;
   /*float: left;*/
 }
 
