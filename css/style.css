@@ -639,10 +639,6 @@ nav li:hover {
   margin: 20px 5% 0 5%;
 }
 
-.no_bullet {
-  list-style-type: none !important;
-}
-
 .services_main img {
   border-radius: 2px;
   float: right;
